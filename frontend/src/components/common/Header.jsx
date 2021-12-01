@@ -5,7 +5,7 @@ import ImgLogo from '../../assets/img/logo.png';
 import ImgSearch from '../../assets/img/search.svg';
 import ImgArrowDown from '../../assets/img/arrowdown.svg';
 import ImgHeart from '../../assets/img/heart.svg';
-import MenuIcon from './MenuIcon';
+import MenuIcon from './MenuIcone';
 import Search from './Search';
 
 const Header = () => {

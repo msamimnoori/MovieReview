@@ -4,6 +4,8 @@ import { addFavourite } from '../../reducks/favourites/operations';
 import { getFavourites } from '../../reducks/favourites/selectors';
 import Imgstar from '../../assets/img/star.png';
 import ImgHeart from '../../assets/img/red_heart.svg';
+import ImgArrow from '../../assets/img/arrow.png'
+
 const Card = ({ movie }) => {
     const dispatch = useDispatch();
     const clickFavourite = movie => {
@@ -31,7 +33,7 @@ const Card = ({ movie }) => {
                             <span class="dark">/5</span>
                         </div>
                         <div class="trailer row">
-                            <img src="images/arrow.svg" alt="" />
+                            <img src={ImgArrow} alt="" />
                             <div class="btn-text">Trailer</div>
                         </div>
                     </div>

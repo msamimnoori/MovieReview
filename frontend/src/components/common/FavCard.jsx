@@ -3,7 +3,7 @@ import Imgstar from '../../assets/img/star.png';
 import ImgHeart from '../../assets/img/red_heart.svg';
 import { useDispatch } from 'react-redux';
 import { deleteFavourite } from '../../reducks/favourites/operations';
-
+import ImgArrow from '../../assets/img/arrow.png'
 const FavCard = ({ favourite }) => {
     const dispatch = useDispatch();
     return (
@@ -18,7 +18,7 @@ const FavCard = ({ favourite }) => {
                             <span class="dark">/5</span>
                         </div>
                         <div class="trailer row">
-                            <img src="images/arrow.svg" alt="" />
+                            <img src={ImgArrow} alt="" />
                             <div class="btn-text">Trailer</div>
                         </div>
                     </div>
