@@ -29,13 +29,15 @@ const Card = ({ movie }) => {
                     <div class="row space-between">
                         <div>
                             <img src={Imgstar} alt="" />
-                            <span>4.6</span>
+                            <span>{movie.rating}</span>
                             <span class="dark">/5</span>
                         </div>
+                        <a href={movie.trailer_link}>
                         <div class="trailer row">
                             <img src={ImgArrow} alt="" />
-                            <div class="btn-text">Trailer</div>
+                            <div class="btn-text">  Trailer</div>
                         </div>
+                        </a>
                     </div>
                 </div>
                 {showLikeButton && (

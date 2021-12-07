@@ -9,6 +9,10 @@ html body {
     background-color: rgb(20, 20, 19);
     font-family: Spartan;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 .row {
     display: flex;
 }
