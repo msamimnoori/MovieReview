@@ -18,7 +18,7 @@ const Home = () => {
     const movies = getMovies(selector);
 
     useEffect(() => {
-        api.getMovies({ release_type: 'Coming Soon' })
+        api.getMovies({ release_type: 'Coming Soon'})
             .then(movies => {
                 setMoviesCommingSoon(movies);
             })
