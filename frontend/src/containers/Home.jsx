@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import Footer from '../components/common/Footer';
 import Header from '../components/common/Header';
-import ImgCover from '../assets/img/CoverImage.png';
+import ImgCover from '../assets/img/coverimage.png';
 import ImgButton from '../assets/img/button1.png';
 import Imgbutton from '../assets/img/sp-cover.png';
 import { getMovies } from '../reducks/movies/selectors';
