@@ -30,9 +30,9 @@ const Card = ({ movie }) => {
                         <div>
                             <img src={Imgstar} alt="" />
                             <span>{movie.rating}</span>
-                            <span class="dark">/5</span>
+                            <span class="dark">/10</span>
                         </div>
-                        <a href={movie.trailer_link}>
+                        <a href={movie.trailer_link} target="_blank">
                         <div class="trailer row">
                             <img src={ImgArrow} alt="" />
                             <div class="btn-text">  Trailer</div>
