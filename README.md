@@ -24,7 +24,7 @@ Check out [API LIVE DEMO](https://movie-review-noori-backend.herokuapp.com/) her
 1. Git Clone
 
 ```
-git clone git@github.com:Tech-i-s/techis-wd-forum-django-react.git
+git clone https://github.com/msamimnoori/MovieReview.git
 ```
 
 2. Backend setting
